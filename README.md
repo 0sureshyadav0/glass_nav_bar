@@ -1,4 +1,4 @@
-# 📱 GlassNavBar (Custom Navigation Bar) 
+# 📱 GlassNavBar
 
 A customizable navigation bar for Flutter apps with a frosted glass effect. The navigation bar allows you to set custom icons, labels, and colors for both selected and unselected states. It uses the `BackdropFilter` widget to create the glass effect with a blur.
 
@@ -14,7 +14,7 @@ A customizable navigation bar for Flutter apps with a frosted glass effect. The 
 
 ```yaml
 dependencies:
-  custom_nav_bar: ^0.0.1
+  glass_nav_bar: ^0.0.4
 ```
 ### 2.Install the package:
 ```
@@ -57,7 +57,7 @@ GlassNavBar(
 iconColor: Color for the icon of unselected items.
 - **activeIconColor**: Color for the icon of the selected item.
 - **items**: A list of NavBarItem objects that define the labels and icons for each navigation item.
-## 👉 Example
+## ✏️ Example
 ```
 import 'package:flutter/material.dart';
 import 'package:glass_nav_bar/glass_nav_bar.dart';
@@ -155,8 +155,11 @@ class _MyHomePageState extends State<MyHomePage> {
 ## 🔧 Customization
 - The GlassNavBar widget allows for customization of the appearance of the nav bar by adjusting the colors of icons and text based on the selected index.
 - You can also adjust the shape of the nav bar by modifying the borderRadius in the ClipRRect.
+
+## 🌏 License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/0sureshyadav0/glass_nav_bar/blob/master/LICENSE 'MIT License') file for details.
 ## 🤝 Contributions
-If you'd like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request. Any improvements or fixes are welcome!
+If you'd like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request [here](https://github.com/0sureshyadav0/glass_nav_bar 'GitHub Repo'). Any improvements or fixes are welcome!
 
 
 
