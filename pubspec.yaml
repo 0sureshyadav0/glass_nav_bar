@@ -2,7 +2,8 @@ name: glass_nav_bar
 description: "A simple navigation bar with glassmorphism look."
 version: 0.0.1
 homepage: https://github.com/0sureshyadav0/glass_nav_bar
-
+repository: https://github.com/0sureshyadav0/glass_nav_bar
+documentation: https://github.com/0sureshyadav0/glass_nav_bar
 environment:
   sdk: ^3.5.4
   flutter: ">=1.17.0"

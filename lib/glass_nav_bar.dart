@@ -9,10 +9,18 @@ class GlassNavBar extends StatefulWidget {
   final int selectedIndex;
   final ValueChanged<int> onItemTapped;
   final List<NavBarItem> items;
+  final Color textColor;
+  final Color iconColor;
+  final Color activeTextColor;
+  final Color activeIconColor;
   const GlassNavBar({
     super.key,
     required this.selectedIndex,
     required this.onItemTapped,
+    required this.textColor,
+    required this.activeTextColor,
+    required this.iconColor,
+    required this.activeIconColor,
     required this.items,
   });
 
@@ -27,6 +35,7 @@ class _GlassNavBarState extends State<GlassNavBar> {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(15.0), // Rounded corners
         child: Container(
+          margin: const EdgeInsets.all(20),
           decoration: const BoxDecoration(
             color: Colors.transparent,
           ),
@@ -66,14 +75,16 @@ class _GlassNavBarState extends State<GlassNavBar> {
         children: [
           Icon(
             item.icon,
-            color:
-                widget.selectedIndex == index ? Colors.white : Colors.white60,
+            color: widget.selectedIndex == index
+                ? widget.activeIconColor
+                : widget.iconColor,
           ),
           Text(
             item.label,
             style: TextStyle(
-              color:
-                  widget.selectedIndex == index ? Colors.white : Colors.white60,
+              color: widget.selectedIndex == index
+                  ? widget.activeTextColor
+                  : widget.textColor,
               fontSize: 12,
             ),
           ),

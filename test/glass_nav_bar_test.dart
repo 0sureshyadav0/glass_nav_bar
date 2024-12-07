@@ -22,6 +22,10 @@ void main() {
             bottomNavigationBar: GlassNavBar(
               selectedIndex: selectedIndex,
               onItemTapped: (_) {},
+              textColor: Colors.white,
+              iconColor: Colors.white,
+              activeIconColor: Colors.white,
+              activeTextColor: Colors.white,
               items: items,
             ),
           ),
@@ -57,6 +61,10 @@ void main() {
               onItemTapped: (index) {
                 tappedIndex = index;
               },
+              textColor: Colors.white,
+              iconColor: Colors.white,
+              activeIconColor: Colors.white,
+              activeTextColor: Colors.white,
               items: items,
             ),
           ),
@@ -87,6 +95,10 @@ void main() {
             bottomNavigationBar: GlassNavBar(
               selectedIndex: selectedIndex,
               onItemTapped: (_) {},
+              textColor: Colors.white,
+              iconColor: Colors.white,
+              activeIconColor: Colors.white,
+              activeTextColor: Colors.white,
               items: items,
             ),
           ),
