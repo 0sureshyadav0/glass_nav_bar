@@ -155,6 +155,12 @@ class _MyHomePageState extends State<MyHomePage> {
 ## 🔧 Customization
 - The GlassNavBar widget allows for customization of the appearance of the nav bar by adjusting the colors of icons and text based on the selected index.
 - You can also adjust the shape of the nav bar by modifying the borderRadius in the ClipRRect.
+  
+## 🧑‍💻 Developer
+
+- **Suresh Yadav**
+- 🌐 [sureshyadav.info.np](http://sureshyadav.info.np)
+- 📧 [Contact](mailto:hi@sureshyadav.info.np)
 
 ## 🌏 License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/0sureshyadav0/glass_nav_bar/blob/master/LICENSE 'MIT License') file for details.
