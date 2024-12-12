@@ -158,7 +158,7 @@ class _MyHomePageState extends State<MyHomePage> {
   
 ## 🧑‍💻 Developer
 
-- </> **Suresh Yadav**
+- 🙋‍♂️ **Suresh Yadav**
 - 🌐 [sureshyadav.info.np](http://sureshyadav.info.np)
 - 📧 [Contact](mailto:hi@sureshyadav.info.np)
 
