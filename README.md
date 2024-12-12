@@ -57,7 +57,7 @@ GlassNavBar(
 iconColor: Color for the icon of unselected items.
 - **activeIconColor**: Color for the icon of the selected item.
 - **items**: A list of NavBarItem objects that define the labels and icons for each navigation item.
-## ✏️ Example
+## </> Example
 ```
 import 'package:flutter/material.dart';
 import 'package:glass_nav_bar/glass_nav_bar.dart';
@@ -158,7 +158,7 @@ class _MyHomePageState extends State<MyHomePage> {
   
 ## 🧑‍💻 Developer
 
-- **Suresh Yadav**
+- </> **Suresh Yadav**
 - 🌐 [sureshyadav.info.np](http://sureshyadav.info.np)
 - 📧 [Contact](mailto:hi@sureshyadav.info.np)
 
