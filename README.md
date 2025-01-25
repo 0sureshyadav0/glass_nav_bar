@@ -8,6 +8,9 @@ A customizable navigation bar for Flutter apps with a frosted glass effect. The 
 - **Customizable Colors**: Set your preferred icon and text colors for both active and inactive states.
 - **Flexible Item Configuration**: Accepts a list of `NavBarItem` objects to define navigation items.
 
+## Preview
+<img src='./navBar.jpg' width="30%" height="30%">
+
 ## 🚀 Installation 
 
 ### 1. Add the dependency to your `pubspec.yaml`:
