@@ -1,12 +1,12 @@
 # 📱 GlassNavBar
 
-A customizable navigation bar for Flutter apps with a frosted glass effect. The navigation bar allows you to set custom icons, labels, and colors for both selected and unselected states. It uses the `BackdropFilter` widget to create the glass effect with a blur.
+A customizable navigation bar for Flutter apps with a frosted glass effect. The navigation bar allows you to set custom icons, labels, and colors for both selected and unselected states. It uses the **`BackdropFilter`** widget to create the glass effect with a blur.
 
 ## ✨ Features 
 
-- **Frosted Glass Effect**: Achieved using `BackdropFilter` and `Container` for a smooth, modern UI.
+- **Frosted Glass Effect**: Achieved using **`BackdropFilter`** and **`Container`** for a smooth, modern UI.
 - **Customizable Colors**: Set your preferred icon and text colors for both active and inactive states.
-- **Flexible Item Configuration**: Accepts a list of `NavBarItem` objects to define navigation items.
+- **Flexible Item Configuration**: Accepts a list of **`NavBarItem`** objects to define navigation items.
 
 ## Preview
 <center>
